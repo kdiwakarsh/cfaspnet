@@ -13,9 +13,9 @@ cd cfaspnet
 
 # Step 3
 
-cf push <app_name> -b https://github.com/cloudfoundry-community/dotnet-core-buildpack.git
+cf push app_name -b https://github.com/cloudfoundry-community/dotnet-core-buildpack.git
 
-Replace <app_name> with a appname.
+Replace app_name with your appname.
 
 # Step 4
 
